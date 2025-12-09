@@ -3,82 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bakedbyara</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Cookie Business</title>
+    
+    <!-- Google Font example -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* We'll pick the exact font later */
+            background-color: #ffffff; /* We'll change to match your logo */
+            color: #000000; /* Main text color */
+            text-align: center;
+            padding: 20px;
+        }
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+        h1 {
+            color: #FF6F61; /* We'll change to match your logo */
+        }
+
+        img.logo {
+            width: 200px; /* Adjust size as needed */
+        }
+    </style>
 </head>
 <body>
-
-<div class="container">
-
-    <img src="logo.png" class="logo">
-
-    <h1>bakedbyara</h1>
-    <p class="subtitle">Fresh, fancy cookies for the school — limited quantities. Cash only.</p>
-
-    <div class="grid">
-
-        <!-- MENU -->
-        <div class="card">
-            <h2 class="card-title">🍪 Cookie Menu</h2>
-
-            <div class="menu-item">
-                <span>Chocolate Chip</span><span>$3.00</span>
-            </div>
-            <div class="menu-item">
-                <span>Ferrero Rocher</span><span>$3.50</span>
-            </div>
-            <div class="menu-item">
-                <span>Cookies & Cream</span><span>$4.00</span>
-            </div>
-            <div class="menu-item">
-                <span>Cookie Monster</span><span>$4.50</span>
-            </div>
-            <div class="menu-item">
-                <span>Biscoff</span><span>$4.50</span>
-            </div>
-
-           
-            <p><strong>Event:</strong> School Vendor Sale</p>
-            <p><strong>Payment:</strong> Cash only</p>
-            <p><strong>Contact:</strong> sitaragfraser@gmail.com</p>
-        </div>
-
-        <!-- FORM -->
-        <div class="card">
-            <h2 class="card-title">Will you order from bakedbyara?</h2>
-
-            <form id="orderForm">
-                <label>Your name</label>
-                <input type="text" name="name" placeholder="e.g. Alex" required>
-
-                <label>Do you think you will order?</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="order" value="Yes"> Yes</label>
-                    <label><input type="radio" name="order" value="Maybe"> Maybe</label>
-                    <label><input type="radio" name="order" value="No"> No</label>
-                </div>
-
-                <label>Any notes (optional)</label>
-                <textarea name="notes" placeholder="Which flavour do you want? When will you pick up?"></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
-
-            <p class="thanks">Thanks — your reply helps me plan how many cookies to bake</p>
-
-            <div class="button-row">
-                <button onclick="downloadCSV()">Download CSV</button>
-                <button onclick="clearResponses()">Clear Responses</button>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-<script src="script.js"></script>
+    <img src="Screenshot 2025-12-07 2.28.35 PM.png" alt="My Logo" class="logo">
+    <h1>Welcome to My Cookie Business!</h1>
+    <p>Contact us at sitaragfraser@gmail.com</p>
 </body>
 </html>
+
